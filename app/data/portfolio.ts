@@ -3,7 +3,7 @@ export interface Tech {
   icon: string
   /** Logos escuros que precisam ser clareados no tema dark */
   invert?: boolean
-  group: 'front' | 'back' | 'tools'
+  group: 'front' | 'back' | 'tools' | 'ai'
 }
 
 export interface Experience {
@@ -29,7 +29,7 @@ export interface Project {
 export const profile = {
   name: 'Eduardo Munhoz Bucher',
   firstName: 'Eduardo',
-  role: 'Desenvolvedor Front-end',
+  role: 'Desenvolvedor Full-stack',
   location: 'Joinville, SC',
   email: 'eduardomb.dev@gmail.com',
   github: 'https://github.com/Eduardo-Munhoz-Bucher',
@@ -43,14 +43,14 @@ export const profile = {
 
 export const about = [
   'Comecei na RotaExata como estagiário de suporte: atendia cliente no telefone e no chat e ajudava técnico em campo na instalação de equipamentos. Ali aprendi uma coisa que curso nenhum ensina: onde o usuário trava, o que ele não entende e o que faz ele ligar irritado.',
-  'Desde 2025 estou do outro lado, como Desenvolvedor Front-end. Construo as telas desse mesmo sistema com Vue.js, Nuxt, JavaScript e TypeScript. Quando a entrega pede, também trabalho no back-end com Node.js, NestJS e banco de dados.',
+  'Desde 2025 estou do outro lado, como Desenvolvedor Full-stack. Construo as telas desse mesmo sistema com Vue.js, Nuxt, JavaScript e TypeScript. Quando a entrega pede, também trabalho no back-end com Node.js, NestJS e banco de dados.',
   'Hoje participo da migração do sistema de Nuxt 2 para Nuxt 4, da refatoração de telas antigas e da criação do design system da empresa, com componentes reutilizáveis que deixam o código mais consistente e fácil de manter. Também desenvolvi o novo site institucional da RotaExata.',
 ]
 
 export const stats = [
   { value: 4, suffix: '+', label: 'anos de RotaExata' },
   { value: 3, suffix: '', label: 'anos no suporte ao cliente' },
-  { value: 1, suffix: '+', label: 'ano como dev front-end' },
+  { value: 1, suffix: '+', label: 'ano como dev full-stack' },
 ]
 
 const icon = (file: string) => `/tech/${file}.svg`
@@ -73,11 +73,15 @@ export const techs: Tech[] = [
   { name: 'Postman', icon: icon('postman-original'), group: 'tools' },
   { name: 'Git', icon: icon('git-original'), group: 'tools' },
   { name: 'Figma', icon: icon('figma-original'), group: 'tools' },
+  { name: 'Claude', icon: icon('claude-color'), group: 'ai' },
+  { name: 'Kiro', icon: icon('kiro-color'), group: 'ai' },
+  { name: 'Grok', icon: icon('grok'), invert: true, group: 'ai' },
+  { name: 'MCPs', icon: icon('mcp'), invert: true, group: 'ai' },
 ]
 
 export const experiences: Experience[] = [
   {
-    role: 'Desenvolvedor Front-end',
+    role: 'Desenvolvedor Full-stack',
     company: 'RotaExata',
     period: 'ago. 2025 — o momento',
     type: 'Tempo integral · Híbrido',

@@ -5,6 +5,7 @@ const groups: { key: Tech['group'], label: string, icon: string }[] = [
   { key: 'front', label: 'Front-end', icon: 'mdi-monitor-dashboard' },
   { key: 'back', label: 'Back-end & dados', icon: 'mdi-server-outline' },
   { key: 'tools', label: 'Ferramentas', icon: 'mdi-tools' },
+  { key: 'ai', label: 'IA', icon: 'mdi-robot-outline' },
 ]
 
 const byGroup = (key: Tech['group']) => techs.filter(t => t.group === key)
@@ -32,7 +33,7 @@ const byGroup = (key: Tech['group']) => techs.filter(t => t.group === key)
 
     <v-container>
       <v-row class="mt-10">
-        <v-col v-for="(group, gi) in groups" :key="group.key" cols="12" md="4">
+        <v-col v-for="(group, gi) in groups" :key="group.key" cols="12" sm="6" lg="3">
           <div v-reveal="gi * 120" class="group glass">
             <p class="group__title font-display">
               <v-icon :icon="group.icon" color="primary" size="20" />

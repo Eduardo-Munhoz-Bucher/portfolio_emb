@@ -138,7 +138,7 @@ const nameWords = profile.name.split(' ').map((word) => {
                 <p class="font-mono">eduardo.ts</p>
               </div>
               <pre class="code-card__code font-mono"><code><span class="k">const</span> <span class="v">eduardo</span> = {
-  <span class="p">cargo</span>: <span class="s">'Dev Front-end'</span>,
+  <span class="p">cargo</span>: <span class="s">'Dev Full-stack'</span>,
   <span class="p">stack</span>: [
     <span class="s">'Vue'</span>, <span class="s">'Nuxt'</span>, <span class="s">'TypeScript'</span>,
     <span class="s">'Node'</span>, <span class="s">'NestJS'</span>,

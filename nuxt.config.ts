@@ -28,19 +28,19 @@ export default defineNuxtConfig({
   app: {
     head: {
       htmlAttrs: { lang: 'pt-BR' },
-      title: 'Eduardo Munhoz Bucher | Desenvolvedor Front-end',
+      title: 'Eduardo Munhoz Bucher | Desenvolvedor Full-stack',
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
           name: 'description',
           content:
-            'Portfólio de Eduardo Munhoz Bucher, Desenvolvedor Front-end com Vue.js, Nuxt e TypeScript. Três anos no suporte, hoje construindo o produto que eu atendia.',
+            'Portfólio de Eduardo Munhoz Bucher, Desenvolvedor Full-stack com Vue.js, Nuxt e TypeScript. Três anos no suporte, hoje construindo o produto que eu atendia.',
         },
         { name: 'theme-color', content: '#07070d' },
-        { property: 'og:title', content: 'Eduardo Munhoz Bucher | Desenvolvedor Front-end' },
+        { property: 'og:title', content: 'Eduardo Munhoz Bucher | Desenvolvedor Full-stack' },
         {
           property: 'og:description',
-          content: 'Dev front-end que entende o produto pelo olho de quem usa.',
+          content: 'Dev full-stack que entende o produto pelo olho de quem usa.',
         },
         { property: 'og:type', content: 'website' },
       ],

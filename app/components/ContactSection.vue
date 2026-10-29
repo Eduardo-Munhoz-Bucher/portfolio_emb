@@ -21,7 +21,7 @@ const copyEmail = async () => {
 
         <p class="section-eyebrow justify-center">05. contato</p>
         <h2 class="contact__title font-display">
-          Precisa de um dev front-end que entende o produto
+          Precisa de um dev full-stack que entende o produto
           <span class="text-gradient">pelo olho de quem usa?</span>
         </h2>
         <p class="contact__text">
