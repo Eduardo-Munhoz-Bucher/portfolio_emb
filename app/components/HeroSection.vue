@@ -143,7 +143,7 @@ const nameWords = profile.name.split(' ').map((word) => {
     <span class="s">'Vue'</span>, <span class="s">'Nuxt'</span>, <span class="s">'TypeScript'</span>,
     <span class="s">'Node'</span>, <span class="s">'NestJS'</span>,
   ],
-  <span class="p">superpoder</span>: <span class="s">'entender o usuário'</span>,
+  <span class="p">diferencial</span>: <span class="s">'entender o usuário'</span>,
 }
 
 <span class="c">// 3 anos no suporte → hoje no código</span>
