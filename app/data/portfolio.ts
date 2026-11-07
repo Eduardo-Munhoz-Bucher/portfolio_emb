@@ -157,6 +157,21 @@ export const projects: Project[] = [
     links: [],
   },
   {
+    title: 'Clínica Dra. Thays Rodrigues',
+    kind: 'Pessoal',
+    description:
+      'Painel administrativo para a clínica de uma biomédica esteta: agenda, pacientes, orçamentos, financeiro, estoque, geração de PDF e notificações push, com autenticação e dados em tempo real.',
+    tags: ['Nuxt', 'Vue 3', 'Tailwind CSS', 'Pinia', 'Supabase', 'jsPDF'],
+    icon: 'mdi-face-woman-shimmer-outline',
+    links: [
+      {
+        label: 'Site',
+        href: 'https://dra-thays-rodrigues.vercel.app/',
+        icon: 'mdi-open-in-new',
+      },
+    ],
+  },
+  {
     title: 'RotaLocadora',
     kind: 'Pessoal',
     description:
